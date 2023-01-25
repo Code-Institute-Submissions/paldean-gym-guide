@@ -21,7 +21,7 @@ h1, h2 {
 #logo {
     float: left;
 }
-#main-image {
+#logo-image {
     float: left;
 }
 /* navigation links */
@@ -32,4 +32,14 @@ h1, h2 {
 #menu li {
     list-style-type: none;
     display: inline;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu, #logo-image, #logo {
+    line-height: 75px;
+}
+#menu a:hover {
+    border-bottom: 1px solid #26413C;
 }
