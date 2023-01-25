@@ -23,6 +23,7 @@ h1, h2 {
 }
 #logo-image {
     float: left;
+    margin: 2px;
 }
 /* navigation links */
 #menu {
@@ -44,6 +45,11 @@ h1, h2 {
     border-bottom: 1px solid #26413C;
 }
 /* hero image section */
+#hero-section {
+    height: 600px;
+    width: 100%;
+    clear: both;
+}
 #hero-image {
     height: 600px;
     width: 100%;
