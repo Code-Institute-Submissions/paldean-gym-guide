@@ -8,11 +8,13 @@
 body {
     font-family: Fanwood-Text, sans-serif;
     font-weight: 400;
+    color: #26413C;
 }
 
 h1, h2 {
     font-family: Arima-Madurai, sans-serif;
     text-transform: uppercase;
+    color: #815E5B;
     text-decoration: none;
     letter-spacing: 3px;
 }
