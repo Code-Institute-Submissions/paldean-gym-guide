@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Fanwood+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 body {
-    font-family: Cambria;
+    font-family: Fanwood-Text, sans-serif;
 }
