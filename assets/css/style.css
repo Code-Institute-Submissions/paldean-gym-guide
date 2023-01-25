@@ -49,9 +49,24 @@ h1, h2 {
     height: 600px;
     width: 100%;
     clear: both;
+    position: relative;
 }
 #hero-image {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center;
+}
+#hero-image-text {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: Arima-Madurai, sans-serif;
+    width: 350px;
+    height: 125px;
+    background-color: rgba(129, 94, 91, .7);
+    bottom: 25px;
+    right: 10px;
+    position: absolute;
+}
+#hero-image-text, #hero-image-text h2 {
+    color: antiquewhite;
 }
