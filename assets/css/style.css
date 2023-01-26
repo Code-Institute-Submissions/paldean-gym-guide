@@ -77,14 +77,19 @@ h1, h2 {
     display: inline-flex;
 }
 #left-gym {
-    width: 33%;
+    width: 45%;
     padding-top: 15px;
+    display: flex;
 }
 #right-gym {
-    width: 33%;
+    width: 45%;
     padding-top: 15px;
 }
 #image-gym {
-    width: 33%;
+    width: 10%;
     padding-top: 15px;
+}
+.left-gym-leaders {
+    width: 40%;
+    flex-direction: column;
 }
