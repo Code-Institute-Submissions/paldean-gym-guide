@@ -76,30 +76,32 @@ h1, h2 {
     height: 600px;
 }
 #left-gym {
-    width: 45%;
+    width: 30%;
+    height: 300px;
     padding-top: 15px;
-    display: flex;
+    float: left;
+    background-color: green;
 }
 #right-gym {
-    width: 45%;
+    width: 30%;
+    height: 300px;
     padding-top: 15px;
-    display: flex;
+    float: right;
+    background-color: blue;
 }
 #image-gym {
-    width: 5%;
-    padding-top: 15px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto; 
+    background-color: red;
 }
 .left-gym-leaders {
-    width: 80%;
-    flex-direction: column;
+    width: 60%;
     text-align: center;
-    padding-left: 40px;
 }
 .right-gym-leaders {
-    width: 80%;
-    flex-direction: column;
+    width: 60%;
     text-align: center;
-    padding-left: 40px;
 }
 .left-gym-leaders li, .right-gym-leaders li {
     list-style-type: none;
