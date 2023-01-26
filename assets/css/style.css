@@ -74,18 +74,16 @@ h1, h2 {
 /* gym leader section */
 #gym-leaders {
     height: 600px;
+    width: 100%;
 }
 #left-gym {
-    width: 30%;
-    height: 300px;
+    width: 33%;
     padding-top: 15px;
     float: left;
     background-color: green;
 }
 #right-gym {
-    width: 30%;
-    height: 300px;
-    padding-top: 15px;
+    width: 33%;
     float: right;
     background-color: blue;
 }
@@ -97,14 +95,11 @@ h1, h2 {
 }
 .left-gym-leaders {
     width: 60%;
-    text-align: center;
+    float: right;
 }
 .right-gym-leaders {
     width: 60%;
-    text-align: center;
-}
-.left-gym-leaders li, .right-gym-leaders li {
-    list-style-type: none;
+    float: left;
 }
 /*.left-gym-leaders-table {
     width: 60%;
