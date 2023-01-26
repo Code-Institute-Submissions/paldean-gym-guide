@@ -71,3 +71,20 @@ h1, h2 {
 #hero-image-text, #hero-image-text h2 {
     color: #FAF3DD;
 }
+/* gym leader section */
+#gym-leaders div {
+    height: 600px;
+    display: inline-flex;
+}
+#left-gym {
+    width: 33%;
+    padding-top: 15px;
+}
+#right-gym {
+    width: 33%;
+    padding-top: 15px;
+}
+#image-gym {
+    width: 33%;
+    padding-top: 15px;
+}
