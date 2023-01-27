@@ -45,6 +45,9 @@ h1, h2 {
 #menu a:hover {
     border-bottom: 1px solid #6B997C;
 }
+.active-page {
+    border-bottom: 1px groove #6B997C;
+}
 /* hero image section */
 #hero-section {
     height: 600px;
@@ -111,12 +114,12 @@ h1, h2 {
 
 /* gym type image section */
 #gym-type {
-    height: 150px;
+    height: 75px;
     width: 100%;
 }
 #gym-type div {
     width: 12%;
-    height: 150px;
+    height: 75px;
     display: inline-block;
     overflow: hidden;
     border: 1px solid #FAF3DD;
