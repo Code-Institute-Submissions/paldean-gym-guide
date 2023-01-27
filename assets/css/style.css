@@ -73,8 +73,8 @@ h1, h2 {
 }
 /* gym leader section */
 #gym-leaders {
-    height: 600px;
-    width: 100%;
+    height: 800px;
+    background-color: #FAF3DD;
 }
 #left-gym {
     width: 33%;
@@ -84,22 +84,24 @@ h1, h2 {
 }
 #right-gym {
     width: 33%;
+    padding-top: 15px;
     float: right;
     background-color: blue;
 }
-#image-gym {
-    width: 200px;
-    height: 200px;
+#center-gym {
+    width: 33%;
     margin: 0 auto; 
     background-color: red;
 }
-.left-gym-leaders {
+.left-gym-text {
     width: 60%;
     float: right;
+    clear: both;
 }
-.right-gym-leaders {
+.right-gym-text {
     width: 60%;
     float: left;
+    clear: both;
 }
 /*.left-gym-leaders-table {
     width: 60%;
@@ -109,3 +111,42 @@ h1, h2 {
     width: 60%;
     letter-spacing: 1px;
 }*/
+#gym-type {
+    height: 300px;
+    width: 100%;
+}
+#gym-type div {
+    width: 12%;
+    height: 150px;
+    display: inline-block;
+    overflow: hidden;
+    border: 1px solid #FAF3DD;
+}
+#gym-type h2 {
+    font-size: 120%;
+    text-align: center;
+}
+#bug {
+    background-color: #6E5B5F;
+}
+#grass {
+    background-color: aqua;
+}
+#electric {
+    background-color: black;
+}
+#water {
+    background-color: beige;
+}
+#normal {
+    background-color: red;
+}
+#ghost {
+    background-color: green;
+}
+#psychic {
+    background-color: blue;
+}
+#ice {
+    background-color: purple;
+}
