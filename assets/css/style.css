@@ -112,7 +112,7 @@ h1, h2 {
     letter-spacing: 1px;
 }*/
 #gym-type {
-    height: 300px;
+    height: 150px;
     width: 100%;
 }
 #gym-type div {
@@ -149,4 +149,20 @@ h1, h2 {
 }
 #ice {
     background-color: purple;
+}
+footer {
+    height: 150px;
+    width: 100%;
+}
+footer > ul {
+    text-align: center;
+}
+footer li {
+    display: inline;
+}
+footer i {
+    font-size: 150%;
+    color: #53A778;
+    margin: 1%;
+    padding: 3%;
 }
