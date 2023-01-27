@@ -122,32 +122,41 @@ h1, h2 {
     border: 1px solid #FAF3DD;
 }
 #gym-type h2 {
-    font-size: 120%;
+    font-size: 100%;
     text-align: center;
+    color: #FAF3DD;
 }
 #bug {
-    background-color: #6E5B5F;
+    background: url("../images/bug-type.jpg") no-repeat;
+    background-size: 100%;
 }
 #grass {
-    background-color: aqua;
+    background: url("../images/grass-type.jpg") no-repeat;
+    background-size: 100%;
 }
 #electric {
-    background-color: black;
+    background: url("../images/electric-type.jpg") no-repeat;
+    background-size: 100%;
 }
 #water {
-    background-color: beige;
+    background: url("../images/water-type.jpg") no-repeat;
+    background-size: 100%;
 }
 #normal {
-    background-color: red;
+    background: url("../images/normal-type.jpg") no-repeat;
+    background-size: 100%;
 }
 #ghost {
-    background-color: green;
+    background: url("../images/ghost-type.jpg") no-repeat;
+    background-size: 100%;
 }
 #psychic {
-    background-color: blue;
+    background: url("../images/psychic-type.jpg") no-repeat;
+    background-size: 100%;
 }
 #ice {
-    background-color: purple;
+    background: url("../images/ice-type.jpg") no-repeat;
+    background-size: 100%;
 }
 
 /* footer */
