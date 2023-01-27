@@ -40,7 +40,23 @@
     </header>
     <section>
         <div>
-            form
+            <form action="">
+                <fieldset>
+                    <legend>Your details</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <label for="game">Which Gen 9 game do you play?</label>
+                    <input type="text" id="game" list="game-names">
+                    <datalist id="game-names">
+                        <option value="Violet"></option>
+                        <option value="Scarlet"></option>
+                        <option value="None"></option>
+                    </datalist>
+                    <input type="submit">
+                </fieldset>
+            </form>
         </div>
         <div>
             find us
