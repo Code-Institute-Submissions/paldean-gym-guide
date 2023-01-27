@@ -38,23 +38,23 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <div>
-            <form action="">
+    <section class="contact">
+        <div id="form">
+            <form action="POST">
                 <fieldset>
                     <legend>Your details</legend>
                     <label for="name">Name:</label>
-                    <input type="text" id="name">
+                    <input type="text" id="name" class="text-box" required>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" required>
+                    <input type="email" id="email" class="text-box" required>
                     <label for="game">Which Gen 9 game do you play?</label>
-                    <input type="text" id="game" list="game-names">
+                    <input type="text" id="game" list="game-names" class="text-box">
                     <datalist id="game-names">
                         <option value="Violet"></option>
                         <option value="Scarlet"></option>
                         <option value="None"></option>
                     </datalist>
-                    <input type="submit">
+                    <input type="submit" id="submit-button">
                 </fieldset>
             </form>
         </div>
