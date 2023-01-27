@@ -167,3 +167,12 @@ footer i {
     margin: 1%;
     padding: 3%;
 }
+#photos {
+    clear: both;
+    column-count: 4;
+    column-gap: 0;
+    line-height: 0;
+}
+#photos > img {
+    width: 100%;
+}
