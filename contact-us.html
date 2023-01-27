@@ -41,19 +41,27 @@
     <section class="contact">
         <div id="form">
             <form action="POST">
-                <fieldset>
+                <h2>Contact Us<i class="fa-solid fa-file-signature"></i></h2>
+                <fieldset id="fieldset">
                     <legend>Your details</legend>
                     <label for="name">Name:</label>
                     <input type="text" id="name" class="text-box" required>
+                    <br>
                     <label for="email">Email:</label>
                     <input type="email" id="email" class="text-box" required>
-                    <label for="game">Which Gen 9 game do you play?</label>
+                    <br>
+                    <label for="game">Which Gen 9 Pokémon game do you play?</label>
                     <input type="text" id="game" list="game-names" class="text-box">
                     <datalist id="game-names">
                         <option value="Violet"></option>
                         <option value="Scarlet"></option>
                         <option value="None"></option>
                     </datalist>
+                    <br>
+                    <label for="query">Queries & Feedback</label>
+                    <br>
+                    <textarea id="query" rows="8" cols="18" class="text-box" placeholder="Your query/feedback"></textarea>
+                    <br>
                     <input type="submit" id="submit-button">
                 </fieldset>
             </form>
