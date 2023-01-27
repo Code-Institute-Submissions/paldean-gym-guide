@@ -4,7 +4,7 @@ This website provides a guide for players of Pokémon Violet and Pokémon Scarle
 
 ## User experience
 
-- ### User Stories
+### User Stories
 
 - #### First Time Visitor Goals
 
@@ -12,19 +12,19 @@ This website provides a guide for players of Pokémon Violet and Pokémon Scarle
 2. I want to ensure the author of the site is a trusted source and is knowledgeable about the Pokémon universe.
 3. I want to be able to navigate the site with ease.
 
-#### Returning Visitor Goals
+- #### Returning Visitor Goals
 
 1. I want to read about the Pokémon listed in the tips section on which the author recommends for each gym leader.
 2. I want to visit the Gallery page and see the images taken by the author throughout their journey in the Paldean landscape.
 3. I want to check any social media links included to see other sites and pages the author has.
 
-#### Frequent User Goals
+- #### Frequent User Goals
 
 1. I want to check in to see if any additional content has been added for guides on how to defeat the Titan Pokémon and the Team Star bases.
 2. I want to contact the author with questions and feedback on their recommendations using the Contact Us page.
 3. I want to check the social media links to see are there any updated blogs posts regarding timelines for planned future implemented features for the site.
 
-#### Owner goals
+- #### Owner goals
 
 1. To develop an online presence.
 2. To demonstrate extensive knowledge of the Pokémon universe.
@@ -63,23 +63,31 @@ All images included in the website have been taken by the author from the Ninten
 - A Contact Us page for players to contact the author with specific questions about the games or with feedback and user experiences of the site.
 - A fully responsive site that can be navigated with ease on desktop, laptop and mobile devices.
 
+## Acessibility
+- Using the semantic header, section and footer elements to aid screen readers.
+- Including aria labels for the social media clickable links.
+- Using alt attributes for all image elements used.
+- Using sans-serif fonts.
+
 ## Languages
 HTML5 and CSS3
 
 ## Framesworks, Libraries and Programs
 
 1. [Coolors](https://coolors.co)
--Coolors was used to upload the hero image and choose a design palette for the website based on the colors in the chosen hero image.
+- Coolors was used to upload the hero image and choose a design palette for the website based on the colors in the chosen hero image.
 1. [Fontjoy](https://fontjoy.com)
--Fontjoy was used to choose a font pairing.
+- Fontjoy was used to choose a font pairing.
 1. [Google Fonts](https://googlefonts.com)
--Googlefonts was used to access the import link for the chosen fonts.
+- Googlefonts was used to access the import link for the chosen fonts.
+1. [Font Awesome](https://fontawesome.com)
+- Font Awesome was used to choose icons and use the html code displayed to insert the chosen icons into the footer and contact us sections of the site.
 1. [Balsamiq](https://balsamiq.com)
--Balsamiq was used for designing the wireframes for desktop, tablet and smart phone screen sizes.
+- Balsamiq was used for designing the wireframes for desktop, tablet and smart phone screen sizes.
 1. [Git](https://gitpod.io)
--Gitpod was used for adding commits each time a new feature was added to the project and for pushing the commits to Github.
+- Gitpod was used for adding commits each time a new feature was added to the project and for pushing the commits to Github.
 1. [Github](https://github.com)
--Github was used for storing projects after being pushed from gitpod and for deploying the website.
+- Github was used for storing projects after being pushed from gitpod and for deploying the website.
 
 ## Future Features
 
