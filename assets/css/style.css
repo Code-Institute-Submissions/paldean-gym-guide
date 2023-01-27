@@ -218,3 +218,12 @@ footer i {
 #submit-button:hover {
     background-color: #53A778;
 }
+#address {
+    margin: 50px 5%;
+    color: #FAF3DD;
+    max-width: 300px;
+    max-height: 350px;
+    position: absolute;
+    right: 10%;
+    padding: 30px;
+}
