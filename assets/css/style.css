@@ -50,13 +50,13 @@ h1, h2 {
 }
 /* hero image section */
 #hero-section {
-    height: 600px;
+    height: 450px;
     width: 100%;
     clear: both;
     position: relative;
 }
 #hero-image {
-    height: 600px;
+    height: 450px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center;
 }
@@ -76,28 +76,29 @@ h1, h2 {
 }
 /* gym leader section */
 #gyms {
-    height: 600px;
+    height: 450px;
     width: 100%;
     background-color: #FAF3DD;
 }
 #gyms h2 {
     text-align: center;
-    font-size: 200%;
+    font-size: 180%;
+    padding: 10px;
 }
 #left-gym {
     width: 33%;
-    padding-top: 15px;
+    padding-top: 2px;
     display: inline-block;
 }
 #right-gym {
     width: 33%;
-    padding-top: 15px;
+    padding-top: 2px;
     display: inline-block;
 }
 #center-gym {
     width: 33%;
     display: inline-block;
-    margin: 75px 0;
+    margin: 45px 0;
 }
 #center-image {
     background: url("../images/logo.jpg") no-repeat center center;
@@ -106,20 +107,24 @@ h1, h2 {
     border: 1px solid #6B997C;
     border-radius: 50%;
     margin: 0 auto;
+    z-index: 3;
 }
 .left-gym-text {
     width: 60%;
     float: right;
+    z-index: 1;
 }
 .right-gym-text {
     width: 60%;
     float: left;
+    z-index: 1;
 }
 
-/* gym type image section */
+/* gym type images */
 #gym-type {
     height: 75px;
     width: 100%;
+    padding: 20px;
 }
 #gym-type div {
     width: 12%;
@@ -132,6 +137,7 @@ h1, h2 {
     font-size: 100%;
     text-align: center;
     color: #FAF3DD;
+    letter-spacing: 3px;
 }
 #bug {
     background: url("../images/bug-type.jpg") no-repeat;
@@ -198,16 +204,20 @@ footer i {
     height: 450px;
     clear: both;
     position: relative;
+    background: url("../images/landscape-1.jpg") no-repeat center center;
 }
-#fieldset {
-    border: 1px dotted #AA9693;
-}
-#form {
-    margin: 50px 5%;
+.contact h2 {
     color: #FAF3DD;
-    background-color: #6E5B5F;
+}
+/*#fieldset {
+    border: 1px dotted #AA9693;
+}*/
+#form {
+    margin: 5% 15%;
+    color: #FAF3DD;
+    background-color: rgba(170, 150, 147, .7);
     max-width: 300px;
-    max-height: 350px;
+    max-height: 300px;
     position: absolute;
     left: 5%;
     padding: 30px;
@@ -223,12 +233,12 @@ footer i {
     background-color: #53A778;
 }
 #address {
-    margin: 50px 5%;
+    margin: 5% 15px;
     color: #FAF3DD;
     max-width: 300px;
-    max-height: 350px;
+    max-height: 300px;
     position: absolute;
-    right: 10%;
+    right: 20%;
     padding: 30px;
 }
 #author {
@@ -243,6 +253,7 @@ footer i {
 #author h3 {
     font-size: 150%;
 }
+/* tips */
 #recommended {
     height: 300px;
     width: 100%;
@@ -252,7 +263,7 @@ footer i {
     text-align: center;
     font-size: 150%;
     padding-bottom: 1%;
-    color: #AA9693;
+    color: #6B997C;
 }
 #recommended > div {
     width: 22%;
@@ -267,7 +278,7 @@ footer i {
 #video > h2 {
     text-align: center;
     font-size: 150%;
-    color: #AA9693;
+    color: #6B997C;
 }
 #video > video {
     width: 100%;
