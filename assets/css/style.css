@@ -231,3 +231,15 @@ footer i {
     right: 10%;
     padding: 30px;
 }
+#author {
+    height: 150px;
+    width: 100%;
+}
+#author > div {
+    width: 70%;
+    padding: 30px;
+    margin: 0 auto;
+}
+#author h3 {
+    font-size: 150%;
+}
