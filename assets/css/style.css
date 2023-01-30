@@ -244,7 +244,7 @@ footer i {
     font-size: 150%;
 }
 #recommended {
-    height: 600px;
+    height: 300px;
     width: 100%;
     clear: both;
 }
@@ -258,4 +258,19 @@ footer i {
     width: 22%;
     display: inline-block;
     padding: 10px;
+}
+#video {
+    height: 300px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+#video > h2 {
+    text-align: center;
+    font-size: 150%;
+    color: #AA9693;
+}
+#video > video {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
 }
