@@ -243,3 +243,19 @@ footer i {
 #author h3 {
     font-size: 150%;
 }
+#recommended {
+    height: 600px;
+    width: 100%;
+    clear: both;
+}
+#recommended > h2 {
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: 1%;
+    color: #AA9693;
+}
+#recommended > div {
+    width: 22%;
+    display: inline-block;
+    padding: 10px;
+}
