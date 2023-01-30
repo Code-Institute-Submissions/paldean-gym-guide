@@ -285,3 +285,15 @@ footer i {
     padding: 20px;
     margin: 0 auto;
 }
+/*media queries*/
+@media screen and (max-width: 1200px) {
+    #gyms {
+        width: 80%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #left-gym, #right-gym, #center-gym {
+        width: 100%;
+        padding: 0;
+    }
+}
