@@ -24,7 +24,10 @@ h1, h2 {
 }
 #logo-image {
     float: left;
-    margin: 2px;
+    height: 50px;
+    width: 50px;
+    margin: 3px;
+    line-height: 75px;
 }
 /* navigation links */
 #menu {
@@ -76,7 +79,7 @@ h1, h2 {
 }
 /* gym leader section */
 #gyms {
-    height: 450px;
+    height: 550px;
     width: 100%;
 }
 #gyms h2 {
@@ -120,14 +123,14 @@ h1, h2 {
 #gym-type {
     height: 75px;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 #gym-type div {
     width: 12%;
     height: 75px;
     display: inline-block;
-    overflow: hidden;
-    border: 1px solid #FAF3DD;
+    /* overflow: hidden;
+    border: 1px solid #FAF3DD; */
 }
 #gym-type h2 {
     font-size: 100%;
@@ -211,8 +214,7 @@ footer i {
 #form {
     margin: 0 auto;
     color: #FAF3DD;
-    background-color: rgba(170, 150, 147, .7);
-    background: linear-gradient(#6B997C,#FAF3DD);
+    background-color: rgb(107, 153, 124, 0.6);
     max-width: 300px;
     max-height: 300px;
     position: absolute;
@@ -273,7 +275,7 @@ footer i {
 #video {
     height: 300px;
     width: 100%;
-    padding-bottom: 30px;
+    padding: 30px 0;
 }
 #video > h2 {
     text-align: center;
@@ -282,25 +284,49 @@ footer i {
 }
 #video > video {
     width: 100%;
-    padding: 20px;
     margin: 0 auto;
 }
 /*media queries*/
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     #gyms {
-        width: 80%;
-        height: 1200px;
-        margin: 0 auto;
+        width: 100%;
+        height: 900px;
+    }
+    #gyms h2 {
+        text-align: center;
     }
     #left-gym, #right-gym, #center-gym {
         width: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    #center-gym {
+        margin: 0 auto;
+        padding: 10px;
+    }
+    #center-image {
+        width: 200px;
+        height: 200px;
+    }
+    .left-gym-text {
+        text-align: center;
+    }
+    .right-gym-text {
+        text-align: center;
     }
     #gym-type {
         width: 100%;
+        height: 175px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    #gym-type > div {
+        padding: 10px;
+        border: 5px solid #FAF3DD;
     }
     #recommended {
         width: 100%;
@@ -352,27 +378,34 @@ footer i {
         margin-bottom: 15px;
     }
     #gyms {
-        width: 80%;
-        height: 1600px;
+            width: 100%;
+            height: 1200px;
+            margin: 0 auto;
+    }
+    #center-gym {
+        margin: 0 auto;
+        padding: 5px;
     }
     #gym-type {
         width: 100%;
-        height: 900px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
+        height: 400px;
+        padding: 20px;
+        margin-left: 25px;
+        display: inline-block;
+    }
+    #gym-type > div {
+        width: 35%;
     }
     #recommended {
         width: 100%;
-        height: 800px;
+        height: 1000px;
         margin: 0 auto;
     }
     #video {
         width: 100%;
-        height: 300px;
+        height: 400px;
         margin: 0;
-        padding: 0;
+        padding: 10px;
     }
     #photos {
         clear: both;
@@ -382,14 +415,14 @@ footer i {
     }
     #contact {
         width: 100%;
-        height: 950px;
-        padding: 5%;
-        clear: none;
+        height: 975px;
+        padding: 0;
+        clear: left;
     }
     #form {
         max-width: 300px;
         max-height: 325px;
-        padding: 10px;
+        /* padding: 10px; */
         margin: 0;
         position: absolute;
         left: 10%;
@@ -398,14 +431,14 @@ footer i {
     #address {
         max-width: 300px;
         max-height: 325px;
-        padding: 10px;
+        /* padding: 10px; */
         margin: 0;
         position: absolute;
         left: 10%;
         bottom: 15%;
     }
     #author {
-        height: 200px;
+        height: 300px;
         width: 100%;
     }
     #author > div {
