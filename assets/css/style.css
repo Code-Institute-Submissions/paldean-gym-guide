@@ -78,7 +78,6 @@ h1, h2 {
 #gyms {
     height: 450px;
     width: 100%;
-    background-color: #FAF3DD;
 }
 #gyms h2 {
     text-align: center;
@@ -107,17 +106,14 @@ h1, h2 {
     border: 1px solid #6B997C;
     border-radius: 50%;
     margin: 0 auto;
-    z-index: 3;
 }
 .left-gym-text {
     width: 60%;
     float: right;
-    z-index: 1;
 }
 .right-gym-text {
     width: 60%;
     float: left;
-    z-index: 1;
 }
 
 /* gym type images */
@@ -292,17 +288,15 @@ footer i {
 /*media queries*/
 @media screen and (max-width: 1200px) {
     #gyms {
-        width: 100%;
+        width: 80%;
         height: 1200px;
         margin: 0 auto;
     }
     #left-gym, #right-gym, #center-gym {
-        width: 100%;
-        padding: 0;
+        width: inherit;
     }
     #gym-type {
         width: 100%;
-        height: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -349,13 +343,25 @@ footer i {
         margin: 0 auto;
     }
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 750px) {
     #menu {
         float: left;
         padding: 0;
         margin-left: 30px;
         line-height: 25px;
         margin-bottom: 15px;
+    }
+    #gyms {
+        width: 80%;
+        height: 1600px;
+    }
+    #gym-type {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     #recommended {
         width: 100%;
