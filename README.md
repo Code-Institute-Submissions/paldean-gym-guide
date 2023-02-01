@@ -96,6 +96,15 @@ Pokémon Violet and Pokémon Scarlet are very expansive open world games with en
 - Additionally I would like to include a section on the new Pokémon that have been introduced in generation 9 with users having the facility to vote for their new favourite Pokémon.
 - To implement a quiz for users to particpate in with questions regarding the games and the new generation Pokémon.
 
+## Deployment
+Github was used to deploy the site.
+### Instructions
+1. Login to github.com
+2. Click the project title under the list of repositories.
+3. Click on the settings option.
+4. Click on pages on the left hand side under the code and automation heading.
+5. Under the heading of build and deployment click the branch drop down menu and select main and click save.
+6. Refresh the page and a notification will display that your site is now live and click the visit site option.
 ## Testing
 
 ### Validation
