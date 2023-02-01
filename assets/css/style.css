@@ -294,6 +294,11 @@ footer i {
     padding: 30px;
 }
 
+#address>iframe {
+    max-width: 250px;
+    max-height: 250px;
+}
+
 #author {
     height: 150px;
     width: 100%;
@@ -559,6 +564,7 @@ footer i {
         height: 1000px;
         margin: 0 auto;
     }
+
     #hero-image-text {
         width: 300px;
         height: 150px;
@@ -566,6 +572,7 @@ footer i {
         margin: 0 auto;
         font-size: 100%;
     }
+
     #hero-image-text>h3 {
         font-size: 75%;
     }
