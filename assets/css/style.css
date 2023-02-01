@@ -120,7 +120,6 @@ h2 {
     width: 33%;
     padding-top: 2px;
     display: inline-block;
-    /* margin: 45px 0; */
 }
 
 #right-gym {
@@ -153,15 +152,12 @@ h2 {
 #gym-type {
     height: 75px;
     width: 100%;
-    /* padding: 10px; */
 }
 
 #gym-type>div {
     width: 12%;
     height: 75px;
     display: inline-block;
-    /* overflow: hidden;
-    border: 1px solid #FAF3DD; */
 }
 
 #gym-type h2 {
@@ -253,7 +249,7 @@ footer i {
 #contact {
     height: 450px;
     clear: both;
-    background: url("../images/landscape-2.jpg") no-repeat center center;
+    background: url("../images/area-zero.jpg") no-repeat center center;
     position: relative;
 }
 
@@ -288,6 +284,7 @@ footer i {
 
 #address {
     color: #FAF3DD;
+    background-color: rgb(107, 153, 124, 0.6);
     max-width: 300px;
     max-height: 300px;
     position: absolute;
@@ -521,6 +518,8 @@ footer i {
         height: 975px;
         padding: 0;
         clear: left;
+        position: relative;
+        margin: 0;
     }
 
     #form {
