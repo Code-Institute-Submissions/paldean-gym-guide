@@ -18,7 +18,9 @@ h1, h2 {
     text-decoration: none;
     letter-spacing: 3px;
 }
+
 /* logo image and heading */
+
 #logo {
     float: left;
 }
@@ -27,9 +29,10 @@ h1, h2 {
     height: 50px;
     width: 50px;
     margin: 3px;
-    line-height: 75px;
 }
+
 /* navigation links */
+
 #menu {
     letter-spacing: 3px;
     float: right;
@@ -51,7 +54,9 @@ h1, h2 {
 .active-page {
     border-bottom: 1px groove #6B997C;
 }
+
 /* hero image section */
+
 #hero-section {
     height: 450px;
     width: 100%;
@@ -77,9 +82,11 @@ h1, h2 {
 #hero-image-text, #hero-image-text h2 {
     color: #FAF3DD;
 }
+
 /* gym leader section */
+
 #gyms {
-    height: 550px;
+    height: 600px;
     width: 100%;
 }
 #gyms h2 {
@@ -92,15 +99,16 @@ h1, h2 {
     padding-top: 2px;
     display: inline-block;
 }
+#center-gym {
+    width: 33%;
+    padding-top: 2px;
+    display: inline-block;
+    /* margin: 45px 0; */
+}
 #right-gym {
     width: 33%;
     padding-top: 2px;
     display: inline-block;
-}
-#center-gym {
-    width: 33%;
-    display: inline-block;
-    margin: 45px 0;
 }
 #center-image {
     background: url("../images/logo.jpg") no-repeat center center;
@@ -120,12 +128,13 @@ h1, h2 {
 }
 
 /* gym type images */
+
 #gym-type {
     height: 75px;
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
 }
-#gym-type div {
+#gym-type > div {
     width: 12%;
     height: 75px;
     display: inline-block;
@@ -172,6 +181,7 @@ h1, h2 {
 }
 
 /* footer */
+
 footer {
     height: 150px;
     width: 100%;
@@ -188,7 +198,9 @@ footer i {
     margin: 1%;
     padding: 3%;
 }
+
 /* gallery */
+
 #photos {
     clear: both;
     column-count: 4;
@@ -198,23 +210,22 @@ footer i {
 #photos > img {
     width: 100%;
 }
+
 /* contact us */
+
 #contact {
     height: 450px;
     clear: both;
-    background: url("../images/landscape-1.jpg") no-repeat center center;
+    background: url("../images/landscape-2.jpg") no-repeat center center;
     position: relative;
 }
 #contact h2 {
     color: #FAF3DD;
 }
-/*#fieldset {
-    border: 1px dotted #AA9693;
-}*/
 #form {
-    margin: 0 auto;
-    color: #FAF3DD;
-    background-color: rgb(107, 153, 124, 0.6);
+    /* margin: 0 auto;
+    color: #FAF3DD; */
+    background-color: rgb(107, 153, 124, 0.7);
     max-width: 300px;
     max-height: 300px;
     position: absolute;
@@ -222,7 +233,11 @@ footer i {
     bottom: 10%;
     padding: 30px;
 }
-.text-box:hover {
+.form-box {
+    color: #FAF3DD;
+    padding: 2px;
+}
+.form-box:hover {
     background-color: #AA9693;
 }
 #submit-button {
@@ -234,7 +249,7 @@ footer i {
     border: 1px solid #AA9693;
 }
 #address {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     color: #FAF3DD;
     max-width: 300px;
     max-height: 300px;
@@ -255,7 +270,9 @@ footer i {
 #author h3 {
     font-size: 150%;
 }
+
 /* tips */
+
 #recommended {
     height: 300px;
     width: 100%;
@@ -268,9 +285,10 @@ footer i {
     color: #6B997C;
 }
 #recommended > div {
-    width: 22%;
+    width: 25%;
     display: inline-block;
     padding: 10px;
+    border: 2px solid #6B997C;
 }
 #video {
     height: 300px;
@@ -286,7 +304,9 @@ footer i {
     width: 100%;
     margin: 0 auto;
 }
-/*media queries*/
+
+/* media queries */
+
 @media screen and (max-width: 1000px) {
     #gyms {
         width: 100%;
