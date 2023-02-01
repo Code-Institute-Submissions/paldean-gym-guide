@@ -130,7 +130,7 @@ h2 {
 }
 
 #center-image {
-    background: url("../images/logo.jpg") no-repeat center center;
+    background: url("../images/pokéball.jpg") no-repeat center center;
     width: 300px;
     height: 300px;
     border: 1px solid #6B997C;
@@ -235,8 +235,10 @@ footer i {
 
 /* gallery */
 
-#photos {
+#photo-section {
     clear: both;
+}
+#photos {
     column-count: 4;
     column-gap: 0;
     line-height: 0;
