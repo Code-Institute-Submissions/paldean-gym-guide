@@ -111,6 +111,9 @@ Github was used to deploy the site.
 1. the bulbapedia link is listed as .com but its the .net sited I wanted to link to
 1. The height of the ghost gym clip needed to be increased for the 750px - 800 px screen sizes as there is overlap with the footer.
 1. On mobile screen sizes the cover text over the hero image needs a margin left property to be added.
+![Ghost Gym Overlap](assets/images/ghost-gym-clip-overlap.PNG)
+![Hero Image Text Hidden](assets/images/hero-image-text-hidden.PNG)
+![Contact Us Gap](assets/images/contact-us-gaps.PNG)
 ### Validation
 
 ### Testing User Stories
