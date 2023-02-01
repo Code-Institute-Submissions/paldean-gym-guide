@@ -78,15 +78,15 @@ HTML5 and CSS3
 - Coolors was used to upload the hero image and choose a design palette for the website based on the colors in the chosen hero image.
 1. [Fontjoy](https://fontjoy.com)
 - Fontjoy was used to choose a font pairing.
-1. [Google Fonts](https://googlefonts.com)
+2. [Google Fonts](https://googlefonts.com)
 - Googlefonts was used to access the import link for the chosen fonts.
-1. [Font Awesome](https://fontawesome.com)
+3. [Font Awesome](https://fontawesome.com)
 - Font Awesome was used to choose icons and use the html code displayed to insert the chosen icons into the footer and contact us sections of the site.
-1. [Balsamiq](https://balsamiq.com)
+4. [Balsamiq](https://balsamiq.com)
 - Balsamiq was used for designing the wireframes for desktop, tablet and smart phone screen sizes.
-1. [Git](https://gitpod.io)
+5. [Git](https://gitpod.io)
 - Gitpod was used for adding commits each time a new feature was added to the project and for pushing the commits to Github.
-1. [Github](https://github.com)
+6. [Github](https://github.com)
 - Github was used for storing projects after being pushed from gitpod and for deploying the website.
 
 ## Future Features
@@ -96,7 +96,35 @@ Pokémon Violet and Pokémon Scarlet are very expansive open world games with en
 - Additionally I would like to include a section on the new Pokémon that have been introduced in generation 9 with users having the facility to vote for their new favourite Pokémon.
 - To implement a quiz for users to particpate in with questions regarding the games and the new generation Pokémon.
 
+### Validation & Testing
+
+![W3C HTML Validator](https://validator.w3.org/#validate_by_input)
+- No errors were found when the html code for the home page was passed through the official html validator.
+![HTML Validator](assets/images/html-checker-home.PNG)
+
+- There were errors on the tips, gallery and contact us section as a width attribute was included for the logo image whereas the image was styled in the css document.
+- On the contact us page width and height attributes were also included in the iframe element.
+![Errors on contact us page](assets/images/html-checker-contact-us.PNG)
+
+![W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- No errors were found when the css code was passed through the official validator.
+![CSS Validator](assets/images/css-checker.PNG)
+
+### Testing User Stories
+
+### Testing on Browers and Devices
+
+### Bugs
+
+#### Unfixed bugs
+
+- When testing on the html validator the following errors were returned. 
+![Error message gallery](assets/images/html-checker-gallery.PNG)
+- I wrapped the image elements in a div container however the error message still appeared.
+![error message gallery](assets/images/html-checker-gallery-unfixed.PNG)
+
 ## Deployment
+
 Github was used to deploy the site.
 ### Instructions
 1. Login to github.com
@@ -106,7 +134,7 @@ Github was used to deploy the site.
 5. Under the heading of build and deployment click the branch drop down menu and select main and click save.
 6. Refresh the page and a notification will display that your site is now live and click the visit site option.
 ![Instructions](assets/images/github-pages.PNG)
-## Testing
+### First Deployment
 - After the first deployment of the site the following actions needed to be taken:
 1. the bulbapedia link is listed as .com but its the .net sited I wanted to link to
 1. The height of the ghost gym clip needed to be increased for the 750px - 800 px screen sizes as there is overlap with the footer.
@@ -114,34 +142,25 @@ Github was used to deploy the site.
 ![Ghost Gym Overlap](assets/images/ghost-gym-clip-overlap.PNG)
 ![Hero Image Text Hidden](assets/images/hero-image-text-hidden.PNG)
 ![Contact Us Gap](assets/images/contact-us-gaps.PNG)
-### Validation
 
-### Testing User Stories
-
-### Testing on Browers and Devices
-
-### Bugs
-
-## Deployment
-
-- GitHub pages
 - Forking
 - Cloning
 
 ## Credits
 
 ### Code
-- The love running walkthrough project code for desiging the guide section on the Home page.
-- The sample readme file for the love running project and the code institute page.
+- The love running code layout for arranging the navigation layout and social media layout.
+- The love running walkthrough project code for designing the club ethos section inspired the 33% division of my gym section on the home page.
+- The sample readme file for the love running project and the code institute page was used to help with headings and layout for the readme file.
 
 ### Content
 
-- All content was written by the developer
+- All content was written by the developer.
 
 ### Media
-- All images were taken by the developer using the screenshot feature on the Nintendo Switch while playing the Pokémon Violet game.
+- All images were taken by the developer using the screenshot feature on the Nintendo Switch while playing the Game Freak Pokémon Violet game.
 
 ### Acknowledgements
 
-- Thank you to my mentor for feedback on planning the project.
+- Thank you to my mentor for feedback on planning and completing the project.
 - Thank you to the facilitator for including useful video links on how to use Balsamiq and how to write a good README file.
