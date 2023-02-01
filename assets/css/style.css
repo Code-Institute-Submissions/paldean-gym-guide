@@ -5,13 +5,15 @@
     padding: 0;
     border: none;
 }
+
 body {
     font-family: Arima Madurai, sans-serif;
     font-weight: 300;
     color: #6E5B5F;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Fanwood Text, sans-serif;
     text-transform: uppercase;
     color: #6B997C;
@@ -24,6 +26,7 @@ h1, h2 {
 #logo {
     float: left;
 }
+
 #logo-image {
     float: left;
     height: 50px;
@@ -37,20 +40,27 @@ h1, h2 {
     letter-spacing: 3px;
     float: right;
 }
+
 #menu li {
     list-style-type: none;
     display: inline;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-#menu, #logo-image, #logo {
+
+#menu,
+#logo-image,
+#logo {
     line-height: 75px;
 }
+
 #menu a:hover {
     border-bottom: 1px solid #6B997C;
 }
+
 .active-page {
     border-bottom: 1px groove #6B997C;
 }
@@ -63,11 +73,13 @@ h1, h2 {
     clear: both;
     position: relative;
 }
+
 #hero-image {
     height: 450px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center;
 }
+
 #hero-image-text {
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -79,7 +91,9 @@ h1, h2 {
     right: 10px;
     position: absolute;
 }
-#hero-image-text, #hero-image-text h2 {
+
+#hero-image-text,
+#hero-image-text h2 {
     color: #FAF3DD;
 }
 
@@ -89,27 +103,32 @@ h1, h2 {
     height: 600px;
     width: 100%;
 }
+
 #gyms h2 {
     text-align: center;
     font-size: 180%;
     padding: 10px;
 }
+
 #left-gym {
     width: 33%;
     padding-top: 2px;
     display: inline-block;
 }
+
 #center-gym {
     width: 33%;
     padding-top: 2px;
     display: inline-block;
     /* margin: 45px 0; */
 }
+
 #right-gym {
     width: 33%;
     padding-top: 2px;
     display: inline-block;
 }
+
 #center-image {
     background: url("../images/logo.jpg") no-repeat center center;
     width: 300px;
@@ -118,10 +137,12 @@ h1, h2 {
     border-radius: 50%;
     margin: 0 auto;
 }
+
 .left-gym-text {
     width: 60%;
     float: right;
 }
+
 .right-gym-text {
     width: 60%;
     float: left;
@@ -134,47 +155,57 @@ h1, h2 {
     width: 100%;
     /* padding: 10px; */
 }
-#gym-type > div {
+
+#gym-type>div {
     width: 12%;
     height: 75px;
     display: inline-block;
     /* overflow: hidden;
     border: 1px solid #FAF3DD; */
 }
+
 #gym-type h2 {
     font-size: 100%;
     text-align: center;
     color: #FAF3DD;
     letter-spacing: 3px;
 }
+
 #bug {
     background: url("../images/bug-type.jpg") no-repeat;
     background-size: 100%;
 }
+
 #grass {
     background: url("../images/grass-type.jpg") no-repeat;
     background-size: 100%;
 }
+
 #electric {
     background: url("../images/electric-type.jpg") no-repeat;
     background-size: 100%;
 }
+
 #water {
     background: url("../images/water-type.jpg") no-repeat;
     background-size: 100%;
 }
+
 #normal {
     background: url("../images/normal-type.jpg") no-repeat;
     background-size: 100%;
 }
+
 #ghost {
     background: url("../images/ghost-type.jpg") no-repeat;
     background-size: 100%;
 }
+
 #psychic {
     background: url("../images/psychic-type.jpg") no-repeat;
     background-size: 100%;
 }
+
 #ice {
     background: url("../images/ice-type.jpg") no-repeat;
     background-size: 100%;
@@ -186,12 +217,15 @@ footer {
     height: 150px;
     width: 100%;
 }
-footer > ul {
+
+footer>ul {
     text-align: center;
 }
+
 footer li {
     display: inline;
 }
+
 footer i {
     font-size: 150%;
     color: #53A778;
@@ -207,7 +241,8 @@ footer i {
     column-gap: 0;
     line-height: 0;
 }
-#photos > img {
+
+#photos>img {
     width: 100%;
 }
 
@@ -219,13 +254,14 @@ footer i {
     background: url("../images/landscape-2.jpg") no-repeat center center;
     position: relative;
 }
+
 #contact h2 {
     color: #FAF3DD;
 }
+
 #form {
-    /* margin: 0 auto;
-    color: #FAF3DD; */
-    background-color: rgb(107, 153, 124, 0.7);
+    color: #FAF3DD;
+    background-color: rgb(107, 153, 124, 0.6);
     max-width: 300px;
     max-height: 300px;
     position: absolute;
@@ -233,23 +269,22 @@ footer i {
     bottom: 10%;
     padding: 30px;
 }
-.form-box {
-    color: #FAF3DD;
-    padding: 2px;
-}
+
 .form-box:hover {
     background-color: #AA9693;
 }
+
 #submit-button {
     border: 2px solid #FAF3DD;
     font-weight: 600;
 }
+
 #submit-button:hover {
     background-color: #AA9693;
     border: 1px solid #AA9693;
 }
+
 #address {
-    /* margin: 0 auto; */
     color: #FAF3DD;
     max-width: 300px;
     max-height: 300px;
@@ -258,15 +293,18 @@ footer i {
     bottom: 10%;
     padding: 30px;
 }
+
 #author {
     height: 150px;
     width: 100%;
 }
-#author > div {
+
+#author>div {
     width: 70%;
     padding: 30px;
     margin: 0 auto;
 }
+
 #author h3 {
     font-size: 150%;
 }
@@ -278,29 +316,33 @@ footer i {
     width: 100%;
     clear: both;
 }
-#recommended > h2 {
+
+#recommended>h2 {
     text-align: center;
     font-size: 150%;
     padding-bottom: 1%;
     color: #6B997C;
 }
-#recommended > div {
-    width: 25%;
+
+#recommended>div {
+    width: 22%;
     display: inline-block;
     padding: 10px;
-    border: 2px solid #6B997C;
 }
+
 #video {
     height: 300px;
     width: 100%;
     padding: 30px 0;
 }
-#video > h2 {
+
+#video>h2 {
     text-align: center;
     font-size: 150%;
     color: #6B997C;
 }
-#video > video {
+
+#video>video {
     width: 100%;
     margin: 0 auto;
 }
@@ -310,32 +352,38 @@ footer i {
 @media screen and (max-width: 1000px) {
     #gyms {
         width: 100%;
-        height: 900px;
+        height: 800px;
     }
+
     #gyms h2 {
         text-align: center;
     }
-    #left-gym, #right-gym, #center-gym {
+
+    #left-gym,
+    #right-gym,
+    #center-gym {
         width: inherit;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 100px;
     }
+
     #center-gym {
         margin: 0 auto;
         padding: 10px;
     }
+
     #center-image {
         width: 200px;
         height: 200px;
     }
-    .left-gym-text {
-        text-align: center;
-    }
+
+    .left-gym-text,
     .right-gym-text {
+        width: inherit;
         text-align: center;
     }
+
     #gym-type {
         width: 100%;
         height: 175px;
@@ -344,32 +392,38 @@ footer i {
         flex-wrap: wrap;
         justify-content: center;
     }
-    #gym-type > div {
+
+    #gym-type>div {
         padding: 10px;
-        border: 5px solid #FAF3DD;
+        border: 5px solid transparent;
     }
+
     #recommended {
         width: 100%;
-        height: 350px;
+        height: 400px;
         margin: 0 auto;
     }
+
     #video {
         width: 100%;
         height: 300px;
         margin: 0;
         padding: 0;
     }
+
     #photos {
         clear: both;
         column-count: 3;
         column-gap: 0;
         line-height: 0;
     }
+
     #contact {
         width: 100%;
         height: 600px;
         position: relative;
     }
+
     #form {
         max-width: 300px;
         max-height: 350px;
@@ -379,6 +433,7 @@ footer i {
         padding: 10px;
         margin: 0 auto;
     }
+
     #address {
         max-width: 300px;
         max-height: 350px;
@@ -390,8 +445,6 @@ footer i {
     }
 }
 
-/* styles for smaller screen sizes */
-
 @media screen and (max-width: 750px) {
     #menu {
         float: left;
@@ -400,15 +453,24 @@ footer i {
         line-height: 25px;
         margin-bottom: 15px;
     }
-    #gyms {
-            width: 100%;
-            height: 1200px;
-            margin: 0 auto;
+
+    #logo,
+    #logo-image {
+        float: left;
+        margin-left: 30px;
     }
+
+    #gyms {
+        width: 100%;
+        height: 1000px;
+        margin: 0 auto;
+    }
+
     #center-gym {
         margin: 0 auto;
         padding: 5px;
     }
+
     #gym-type {
         width: 100%;
         height: 400px;
@@ -416,56 +478,79 @@ footer i {
         margin-left: 25px;
         display: inline-block;
     }
-    #gym-type > div {
+
+    #gym-type>div {
         width: 35%;
     }
+
     #recommended {
         width: 100%;
-        height: 1000px;
+        height: 700px;
         margin: 0 auto;
     }
+
     #video {
         width: 100%;
-        height: 400px;
+        height: 350px;
         margin: 0;
         padding: 10px;
     }
+
     #photos {
         clear: both;
         column-count: 2;
         column-gap: 0;
         line-height: 0;
     }
+
     #contact {
         width: 100%;
         height: 975px;
         padding: 0;
         clear: left;
     }
+
     #form {
         max-width: 300px;
         max-height: 325px;
-        /* padding: 10px; */
         margin: 0;
         position: absolute;
         left: 10%;
         top: 15%;
     }
+
     #address {
         max-width: 300px;
         max-height: 325px;
-        /* padding: 10px; */
         margin: 0;
         position: absolute;
         left: 10%;
         bottom: 15%;
     }
+
     #author {
         height: 300px;
         width: 100%;
     }
-    #author > div {
+
+    #author>div {
         width: 70%;
         padding: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #recommended {
+        width: 100%;
+        height: 900px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #recommended {
+        width: 100%;
+        height: 1000px;
+        margin: 0 auto;
     }
 }
