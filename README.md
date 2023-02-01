@@ -105,8 +105,12 @@ Github was used to deploy the site.
 4. Click on pages on the left hand side under the code and automation heading.
 5. Under the heading of build and deployment click the branch drop down menu and select main and click save.
 6. Refresh the page and a notification will display that your site is now live and click the visit site option.
+![Instructions](assets/images/github-pages.PNG)
 ## Testing
-
+- After the first deployment of the site the following actions needed to be taken:
+1. the bulbapedia link is listed as .com but its the .net sited I wanted to link to
+1. The height of the ghost gym clip needed to be increased for the 750px - 800 px screen sizes as there is overlap with the footer.
+1. On mobile screen sizes the cover text over the hero image needs a margin left property to be added.
 ### Validation
 
 ### Testing User Stories
