@@ -163,9 +163,10 @@ h2 {
 #gym-type h2 {
     font-size: 100%;
     text-align: center;
-    top: 0;
+    text-decoration: underline;
     color: #FAF3DD;
     letter-spacing: 3px;
+    margin-top: 50px;
 }
 
 #bug {
