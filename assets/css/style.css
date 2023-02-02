@@ -584,10 +584,15 @@ footer i {
     #gyms {
         width: 100%;
         height: 985px;
+        font-size: 100%;
+    }
+
+    #gyms>h2 {
+        font-size: 120%;
     }
 
     #gym-type {
-        margin-left: 15px;
+        margin-left: 30px;
         margin-bottom: 30px;
     }
 
@@ -624,9 +629,13 @@ footer i {
 /* media query added for the iphone13 model to remove overlap */
 
 @media screen and (max-width: 350px) {
-    #gyms {
-        width: 100%;
-        height: 1075px;
+    
+    #logo {
+        font-size: 120%;
+    }
+
+    #menu li {
+        display: inline-block;
     }
 }
 
