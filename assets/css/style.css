@@ -655,8 +655,13 @@ footer i {
         width: 350px;
         height: 125px;
         background-color: rgba(170, 150, 147, .7); */
-        bottom: 25px;
-        right: 150px;
+        right: 120px;
+        position: absolute;
+    }
+}
+@media screen and (min-width: 1400px) {
+    #hero-image-text {
+        right: 175px;
         position: absolute;
     }
 }
