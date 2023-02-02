@@ -636,14 +636,14 @@ footer i {
     }
 }
 
-@ media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     #hero-image-text {
-        text-transform: uppercase;
+        /* text-transform: uppercase;
         letter-spacing: 3px;
         font-family: Fanwood Text, sans-serif;
         width: 350px;
         height: 125px;
-        background-color: rgba(170, 150, 147, .7);
+        background-color: rgba(170, 150, 147, .7); */
         bottom: 25px;
         right: 25px;
         position: absolute;
