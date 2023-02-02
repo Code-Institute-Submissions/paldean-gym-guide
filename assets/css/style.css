@@ -633,7 +633,7 @@ footer i {
 
 /* media query for the hero image cover text for large desktop screens */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1100px) {
     #hero-image-text {
         /* text-transform: uppercase;
         letter-spacing: 3px;
@@ -642,7 +642,7 @@ footer i {
         height: 125px;
         background-color: rgba(170, 150, 147, .7); */
         bottom: 25px;
-        right: 50px;
+        right: 75px;
         position: absolute;
     }
 }
