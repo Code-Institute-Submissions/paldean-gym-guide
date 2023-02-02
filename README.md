@@ -48,9 +48,9 @@ All images included in the website have been taken by the author from the Ninten
 
 ### Wireframes
 
-- Desktop wireframe -[View](https://)
-- Mobile wireframe - [View](https://)
-- Tablet wireframe - [View](https://)
+- Desktop wireframe -[View](https://balsamiq.cloud/s3dzpum/pq4i5x0/bmpr)
+- Mobile wireframe - [View](https://balsamiq.cloud/s3dzpum/poifz5k/bmpr)
+- Tablet wireframe - [View](https://balsamiq.cloud/s3dzpum/p2iwu7m/bmpr)
 
 ## Existing features
 
