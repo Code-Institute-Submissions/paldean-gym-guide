@@ -2,6 +2,8 @@
 
 This website provides a guide for players of Pokémon Violet and Pokémon Scarlet on how to successfully defeat the eight gym leaders. It will be of benefit and value to players that are new to the Pokémon universe that are not fully versed in the type matchups as the weaknessess of each gym leaders Pokémon are discussed on the site. In addition to this recommended Pokémon to use for each gym are included in the tips section.
 
+![Paldean Gym Guide Site](assets/images/responsive-final-site.PNG)
+
 ## User experience
 
 ### User Stories
@@ -44,7 +46,7 @@ I used fontjoy.com to choose a pairing of fonts and googlefonts for the import l
 
 #### Imagery
 
-All images included in the website have been taken by the author from the Nintendo Switch Pokémon Violet game. The hero image chosen is that of a landscape in the game a player encounters early on with the university in the center of the image and the lush greens and browns of the beautiful nature of Paldea at the forefront. I chose this image as the hero image as I believe it is a very aesthetically pleasing for the user and evokes a positive emotive response from the user.
+All images included in the website have been taken by the author from the Nintendo Switch Pokémon Violet game. The hero image chosen is that of a landscape in the game a player encounters early on with the Academy in the center of the image and the lush greens and browns of the beautiful nature of Paldea at the forefront. I chose this image as the hero image as I believe it is a very aesthetically pleasing for the user and evokes a positive emotive response from the user.
 
 ### Wireframes
 
@@ -75,7 +77,7 @@ All images included in the website have been taken by the author from the Ninten
 
 ![Recommended Pokémon Tips](assets/images/recommended-pok%C3%A9mon.PNG)
 
-- The tips page also contains an embedded youtube video, created by the author, showing the author successfully defeating the ghost gym leader. Two of the recommended Pokémon are visible in the 30 second clip which provides users that are playing the game with a strategy for this battle and evokes excitement and enthusiasm for prospective players as the new form of mega evolution known as terastallising is recorded in this clip.
+- The tips page also contains an embedded youtube video, created by the author, showing the author successfully defeating the ghost gym leader. Two of the recommended Pokémon are visible in the 30 second clip which provides users that are playing the game with a strategy for this battle and evokes excitement and enthusiasm for prospective players as the new form of mega evolution known as terastallizing is recorded in this clip.
 
 ![Ghost gym video clip](assets/images/ghost-gym-video.PNG)
 
@@ -89,7 +91,7 @@ All images included in the website have been taken by the author from the Ninten
 
 - A Contact Us page for players to contact the author with specific questions about the games or with feedback and user experiences of the site. 
 The action used for this site is the Code Institute address used during the tutorials.
-[Code Institute address used for forms](https://formdump.codeinstitute.net)
+(https://formdump.codeinstitute.net)
 The address shown in the iframe is the Code Institute address is Dublin snipped from Google maps.
 
 ![Contact Us](assets/images/contact-us.PNG)
@@ -167,26 +169,29 @@ Pokémon Violet and Pokémon Scarlet are very expansive open world games with en
 3. Users found the site easy to navigate and all links, both internal and external, worked.
 
 ### Testing on Browers and Devices
-#### Chrome
+- Chrome
 
-#### Edge
+- Edge
 
-#### Firefox
+- Firefox
 
-#### Lighthouse
+- Lighthouse
 
 ### Bugs
 
 #### Unfixed bugs
 
-- When testing on the html validator the following errors were returned. 
-![Error message gallery](assets/images/html-checker-gallery.PNG)
-- I wrapped the image elements in a div container however the error message still appeared.
+- When testing on the html validator for the gallery.html file an error returned recommending to use h2-h6 elements inside the section or to use a div element.
+- I wrapped the image elements in a div container inside the section element however the error message still appears.
 ![error message gallery](assets/images/html-checker-gallery-unfixed.PNG)
 
 #### Solved bugs
-- When testing the deployed website for responsivity, on larger desktop screen sizes, the hero image cover text was appearing very far right of the image. Fixed this position issue for desktop screens with a media query targetting screens larger than 1200px.
+- When testing the deployed website for responsivity, on larger desktop screen sizes, the hero image cover text was appearing very far right of the image. Fixed this position issue for desktop screens with media queries targetting screens larger than 1300px and 1400px.
 ![Am I responsive](assets/images/am-i-responsive-first-run.PNG)
+
+- After the first deployment of the site the following actions needed to be taken:
+1. The bulbapedia link was listed as .com, its the .net site that required linking to, which has been fixed on all four pages.
+2. There was a large vertical gap on the contact us page between the navigation bar and the contact section, this was fixed by removing the height property given.
 
 ## Deployment
 
@@ -199,14 +204,6 @@ Github was used to deploy the site.
 5. Under the heading of build and deployment click the branch drop down menu and select main and click save.
 6. Refresh the page and a notification will display that your site is now live and click the visit site option.
 ![Instructions](assets/images/github-pages.PNG)
-
-<!-- ### First Deployment
-- After the first deployment of the site the following actions needed to be taken:
-1. The bulbapedia link was listed as .com, its the .net site that required linking to which has been fixed on all four pages. -->
-<!-- 1. There was overlap of the video and the footer element on the tips page which was fixed using the Chrome Developer tools 
-1. On mobile screen sizes the cover text over the hero image needed a margin left property to be added to be visible on smaller screen sizes.
-4. On smaller mobile screens the recommended Pokémon div's had some overlap which has been fixed with css.
-5. There was a large vertical gap on the contact us page between the nav bar and the contact section due to a height property given to the section. -->
 
 ## Credits
 
