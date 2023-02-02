@@ -589,3 +589,17 @@ footer i {
         font-size: 75%;
     }
 }
+
+@ media screen and (min-width: 1200px) {
+    #hero-image-text {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: Fanwood Text, sans-serif;
+        width: 350px;
+        height: 125px;
+        background-color: rgba(170, 150, 147, .7);
+        bottom: 25px;
+        right: 25px;
+        position: absolute;
+    }
+}
