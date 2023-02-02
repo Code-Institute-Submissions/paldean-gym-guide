@@ -7,14 +7,14 @@
 }
 
 body {
-    font-family: Arima Madurai, sans-serif;
+    font-family: "Arima Madurai", sans-serif;
     font-weight: 300;
     color: #6E5B5F;
 }
 
 h1,
 h2 {
-    font-family: Fanwood Text, sans-serif;
+    font-family: "Fanwood Text", sans-serif;
     text-transform: uppercase;
     color: #6B997C;
     text-decoration: none;
@@ -83,7 +83,7 @@ h2 {
 #hero-image-text {
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-family: Fanwood Text, sans-serif;
+    font-family: "Fanwood Text", sans-serif;
     width: 350px;
     height: 125px;
     background-color: rgba(170, 150, 147, .7);
