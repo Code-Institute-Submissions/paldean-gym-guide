@@ -323,7 +323,8 @@ footer i {
     clear: both;
 }
 
-#recommended>h2, #video>h2 {
+#recommended>h2,
+#video>h2 {
     text-align: center;
     font-size: 150%;
     padding-bottom: 1%;
@@ -501,7 +502,8 @@ footer i {
         display: inline-block;
     }
 
-    #recommended>h2, #video>h2 {
+    #recommended>h2,
+    #video>h2 {
         text-align: left;
     }
 
@@ -573,7 +575,7 @@ footer i {
 
     #logo {
         font-size: 160%;
-        }
+    }
 }
 
 /* media query for small mobile screen sizes less than 450px */
@@ -611,7 +613,8 @@ footer i {
         width: 90%;
     }
 
-    #recommended>h2, #video>h2 {
+    #recommended>h2,
+    #video>h2 {
         font-size: 120%;
     }
 
@@ -635,7 +638,7 @@ footer i {
 /* media query added for the iphone13 model to remove overlap */
 
 @media screen and (max-width: 350px) {
-    
+
     #logo {
         font-size: 120%;
     }
@@ -659,6 +662,7 @@ footer i {
         position: absolute;
     }
 }
+
 @media screen and (min-width: 1400px) {
     #hero-image-text {
         right: 175px;
