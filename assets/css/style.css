@@ -300,7 +300,6 @@ footer i {
 }
 
 #author {
-    height: 150px;
     width: 100%;
 }
 
@@ -544,7 +543,7 @@ footer i {
         margin: 0;
         position: absolute;
         left: 10%;
-        top: 15%;
+        top: 3%;
     }
 
     #address {
@@ -553,12 +552,11 @@ footer i {
         margin: 0;
         position: absolute;
         left: 10%;
-        bottom: 15%;
+        bottom: 3%;
     }
 
     #author {
-        height: 300px;
-        width: 100%;
+        margin-top: 10px;
     }
 
     #author>div {
