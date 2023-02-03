@@ -163,7 +163,6 @@ h2 {
 #gym-type h2 {
     font-size: 100%;
     text-align: center;
-    text-decoration: underline;
     color: #FAF3DD;
     letter-spacing: 3px;
     margin-top: 50px;
@@ -399,6 +398,10 @@ footer i {
         border: 5px solid transparent;
     }
 
+    #gym-type h2 {
+        margin-top: 35px;
+    }
+
     #recommended {
         width: 100%;
         margin: 0 auto;
@@ -476,6 +479,10 @@ footer i {
 
     #gym-type>div {
         width: 35%;
+    }
+
+    #gym-type h2 {
+        margin-top: 50px;
     }
 
     #recommended {
@@ -611,6 +618,10 @@ footer i {
 
     #menu li {
         display: inline-block;
+    }
+
+    #gym-type h2 {
+        margin-top: 35px;
     }
 }
 
