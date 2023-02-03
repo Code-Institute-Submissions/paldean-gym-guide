@@ -1,6 +1,8 @@
 # Paldean Gym Guide
 
-This website provides a guide for players of Pokémon Violet and Pokémon Scarlet on how to successfully defeat the eight gym leaders. It will be of benefit and value to players that are new to the Pokémon universe that are not fully versed in the type matchups as the weaknessess of each gym leaders Pokémon are discussed on the site. In addition to this recommended Pokémon to use for each gym are included in the tips section.
+This website provides a guide for players of Pokémon Violet and Pokémon Scarlet on how to successfully defeat the eight gym leaders. It will be of benefit and value to players that are new to the Pokémon universe that are not fully versed in the type matchups as the weaknessess of each gym leaders' Pokémon are discussed on the site. In addition to this recommended Pokémon to use for each gym are included in the tips section to further assist players in their endeavour. 
+
+[View the live website here](https://louiseconlon11.github.io/paldean-gym-guide/)
 
 ![Paldean Gym Guide Site](assets/images/responsive-final-site.PNG)
 
@@ -28,9 +30,9 @@ This website provides a guide for players of Pokémon Violet and Pokémon Scarle
 
 - #### Owner goals
 
-1. To develop an online presence.
+1. To contribute positively to the vast and passionate online Pokémon community.
 2. To demonstrate extensive knowledge of the Pokémon universe.
-3. To contribute positively to the vast and passionate online Pokémon community.
+3. To develop an online presence.
 
 ### Design
 
@@ -38,24 +40,29 @@ This website provides a guide for players of Pokémon Violet and Pokémon Scarle
 
 ![Chosen palette](assets/images/palette%20paldea.png)
 
-The main colors used are Russian Green, Shiny Shamrock, Eggshell and Deep Taupe.
+The main colors used are Russian Green, Shiny Shamrock, Eggshell and Deep Taupe. The color scheme was chosen by uploading the hero image to the [coolors](https://coolors.co) website and choosing a selection of the colors identified in the image.
 
 #### Typography
 
-I used fontjoy.com to choose a pairing of fonts and googlefonts for the import link. The fonts chosen are Arima Madurai for the body and Fanwood Text for the headings. I used sans- serif as the backup text font for accessibility.
+I used [Fontjoy](https://fontjoy.com) to choose a pairing of fonts and [Googlefonts](https://googlefonts.com) for the import link. The fonts chosen are Arima Madurai for the body and Fanwood Text for the headings. I used sans-serif as the backup text font for accessibility.
 
 #### Imagery
 
-All images included in the website have been taken by the author from the Nintendo Switch Pokémon Violet game. The hero image chosen is that of a landscape in the game a player encounters early on with the Academy in the center of the image and the lush greens and browns of the beautiful nature of Paldea at the forefront. I chose this image as the hero image as I believe it is a very aesthetically pleasing for the user and evokes a positive emotive response from the user.
+All images included in the website have been taken by the author from the Nintendo Switch Pokémon Violet and Scarlet games. The hero image chosen is that of a landscape in the game the player encounters early on with the Academy in the center of the image and the lush greens and browns of the beautiful nature of Paldea at the forefront. I chose this image as the hero image as I believe it is a very aesthetically pleasing for the user and evokes a positive emotive response from the user.
 
 ### Wireframes
 
 - Desktop wireframe -[View](https://balsamiq.cloud/s3dzpum/pq4i5x0/bmpr)
+
 ![Desktop wireframe](assets/images/wireframes-desktop.PNG)
+
 - Mobile wireframe - [View](https://balsamiq.cloud/s3dzpum/poifz5k/bmpr)
-![Mobile wireframe screenshot](assets/images/wireframes-mobile.PNG)
+
+![Mobile wireframe](assets/images/wireframes-mobile.PNG)
+
 - Tablet wireframe - [View](https://balsamiq.cloud/s3dzpum/p2iwu7m/bmpr)
-![Tablet wireframe screenshot](assets/images/wireframes-tablet.PNG)
+
+![Tablet wireframe](assets/images/wireframes-tablet.PNG)
 
 ## Existing features
 
@@ -70,40 +77,47 @@ All images included in the website have been taken by the author from the Ninten
 - The hero image is aesthetically pleasing with the main aim of the site overlayed on the image to grab the users attention immediately. Players of the generation 9 games will recognise the Academy in the hero image instantly.
 
 ![Hero image with cover text](assets/images/hero-image-with-text.PNG)
+[View](https://louiseconlon11.github.io/paldean-gym-guide/index.html)
 
-- The Home page section guide on the gym leaders and the additional Tips section clickable from all pages with information for the user on how to successfully defeat all gyms leaders. Both of these sections encourage the user to use a variety of Pokémon and strategies to gain success in the Paldean gym challenge.
+- The Home page section guide on the gym leaders clickable from all pages with information for the user on how to successfully defeat all gyms leaders. This provides the user with information on the weaknesses of each gym leader and allows the user to act accordingly based on the information given.
 
 ![Gym Leader Guide](assets/images/the-gym-leaders.PNG)
 
-![Recommended Pokémon Tips](assets/images/recommended-pok%C3%A9mon.PNG)
-
-- There is a gym type section under the gym leader guide with images of each of the eight gym leader types which gives the user insight into the types the gym leaders use and to plan their team accordingly in addition to using the recommended tips as a guide.
+- There is a gym type section under the gym leader guide with images of each of the eight gym leader types which gives the user insight into the Pokémon types the gym leaders use and to plan their team accordingly.
 
 ![Gym Type Images](assets/images/gym-type-images.PNG)
 
-- The tips page also contains an embedded youtube video, created by the author, showing the author successfully defeating the ghost gym leader. Two of the recommended Pokémon are visible in the 30 second clip which provides users that are playing the game with a strategy for this battle and evokes excitement and enthusiasm for prospective players as the new form of mega evolution known as terastallizing is recorded in this clip.
-
-![Ghost gym video clip](assets/images/ghost-gym-video.PNG)
-
-- The Footer section contains social media links which are clickable and allow access to sites that provide additional information for the user about the Pokémon universe such as Bulbapedia and information about the author to aim for the owner to create a possible online following with instagram and youtube links.
+- The Footer section contains social media links which are clickable and allow access to sites that provide additional information for the user about the Pokémon universe such as [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page) and information about the author with instagram and youtube links.
 
 ![Social media links](assets/images/social-media-links.PNG)
 
-- A gallery page for users to experience some of the adventures the author had while playing the game and exploring Paldea. This provides value to the user as they can compare and contrast their own experiences while adventuring through Paldea or spark interest in those users hoping to play.
+- The Recommended Pokémon section on the Tips page encourages the user to use a variety of Pokémon in addition to type match up strategies in order to gain success in the Paldean gym challenge.
+
+![Recommended Pokémon Tips](assets/images/recommended-pok%C3%A9mon.PNG)
+
+- The Tips page also contains an embedded youtube video, created by the author, showing the author successfully defeating the ghost gym leader. Two of the recommended Pokémon are visible in the 30 second clip which provides users that are playing the game with a strategy for this battle and evokes excitement and enthusiasm for prospective players as the new form of mega evolution known as terastallizing is recorded in this clip.
+
+![Ghost gym video clip](assets/images/ghost-gym-video.PNG)
+[View](https://louiseconlon11.github.io/paldean-gym-guide/tips.html)
+
+- A gallery page for the user to experience some of the adventures the author had while playing the game and exploring Paldea. This provides value to the user as they can compare and contrast their own experiences while adventuring through Paldea or spark interest in those users hoping to play.
 
 ![Gallery](assets/images/gallery.PNG)
 
+[View](https://louiseconlon11.github.io/paldean-gym-guide/gallery.html)
+
 - A Contact Us page for players to contact the author with specific questions about the games or with feedback and user experiences of the site. 
-The action used for this site is the Code Institute address used during the tutorials.
-[View](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/54c8bc3847e243f1ab8d0e5ccc1cc97a/?child=last)
-The address shown in the iframe is the Code Institute address is Dublin snipped from Google maps.
-[View](https://www.google.com/maps/place/Code+Institute/@53.2982013,-6.1808393,17z/data=!3m1!4b1!4m5!3m4!1s0x48670e99733f3617:0x7ff7202fe3dea603!8m2!3d53.2981981!4d-6.1786506)
+The value for the action attribute used for this website is the address given used during the [Form Code Institute Tutorial](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/54c8bc3847e243f1ab8d0e5ccc1cc97a/?child=last)
+
+The address shown in the iframe on the contact us page is the Code Institute address is Dublin snipped from [Google Maps](https://www.google.com/maps/place/Code+Institute/@53.2982013,-6.1808393,17z/data=!3m1!4b1!4m5!3m4!1s0x48670e99733f3617:0x7ff7202fe3dea603!8m2!3d53.2981981!4d-6.1786506)
 
 ![Contact Us](assets/images/contact-us.PNG)
 
-- A recommendation from the author for users which encourages users and players to diversify their teams and experiment with many different variety of Pokémon to learn more about the universe and enhance their enjoyment and understanding.
+- The contact us page includes a recommendation from the author for the user which encourages users and players to diversify their teams and experiment with many different variety of Pokémon to learn more about the universe and enhance their enjoyment and understanding.
 
 ![Note from the author](assets/images/author-note.PNG)
+
+[View](https://louiseconlon11.github.io/paldean-gym-guide/contact-us.html)
 
 - A fully responsive site that can be navigated with ease on desktop, laptop and mobile devices.
 
@@ -136,6 +150,9 @@ The address shown in the iframe is the Code Institute address is Dublin snipped 
 - Github was used for storing projects after being pushed from gitpod and for deploying the website.
 8. [Youtube](https://youtube.com)
 - Youtube was used to upload the video recorded on the Nintendo Switch and then embed into the website so Youtube can host the video to improve performance.
+9. [Google maps](https://www.google.com/maps)
+- Google maps was used to get the address for the Code Institute building in Dublin and use a screenshot of this address in the iframe element on the contact us page.
+10. The Nintendo Switch gaming console and the Game Freak Pokémon Violet video game to take and record the images and video files used throughout the website.
 
 ## Future Features
 
@@ -184,6 +201,10 @@ The website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
 - The form on the contact us page accepts input and will not allow the user to submit unless a name and email are given and the email requires the @.
 - The website is responsive on all applications.
 - The linked youtube video plays in all applications.
+
+#### Device Testing
+The website was tested on a variety of devices including desktop, HP laptops, Samsung Galaxy and iPhone 13 devices.
+Family members were asked to check the website on their devices and highlight any issues with overlap, images loading or links.
 
 #### Lighthouse Testing
 I carried out a lighthouse report using the Google Chrome Lighthouse function for desktop and mobile. The results returned are very positive for accessibility and search engine optimisation and excellent performance on desktop view and very good on mobile.
