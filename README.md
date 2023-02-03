@@ -115,7 +115,8 @@ The address shown in the iframe is the Code Institute address is Dublin snipped 
 - Using sans-serif fonts as back-up fonts.
 
 ## Languages
-HTML5 and CSS3
+[HTML5](https://en.wikipedia.org/wiki/HTML5)
+[CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ## Framesworks, Libraries and Programs
 
@@ -218,6 +219,8 @@ Github was used to deploy the site.
 6. Refresh the page and a notification will display that your site is now live and click the visit site option.
 ![Instructions](assets/images/github-pages.PNG)
 
+The live link to the website can be found [here](https://louiseconlon11.github.io/paldean-gym-guide/)
+
 ## Credits
 
 ### Code
@@ -233,6 +236,7 @@ Github was used to deploy the site.
 ### Content
 
 - All content was written by the developer.
+- The icons in the footer and on the contact us page were taken from [Font Awesome](https://fontawesome.com)
 
 ### Media
 - All images were taken by the developer using the screenshot feature on the Nintendo Switch while playing the Game Freak Pokémon Violet and Scarlet games.
