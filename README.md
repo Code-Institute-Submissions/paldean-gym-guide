@@ -91,8 +91,9 @@ All images included in the website have been taken by the author from the Ninten
 
 - A Contact Us page for players to contact the author with specific questions about the games or with feedback and user experiences of the site. 
 The action used for this site is the Code Institute address used during the tutorials.
-(https://formdump.codeinstitute.net)
+[View](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/54c8bc3847e243f1ab8d0e5ccc1cc97a/?child=last)
 The address shown in the iframe is the Code Institute address is Dublin snipped from Google maps.
+[View](https://www.google.com/maps/place/Code+Institute/@53.2982013,-6.1808393,17z/data=!3m1!4b1!4m5!3m4!1s0x48670e99733f3617:0x7ff7202fe3dea603!8m2!3d53.2981981!4d-6.1786506)
 
 ![Contact Us](assets/images/contact-us.PNG)
 
@@ -209,8 +210,10 @@ Github was used to deploy the site.
 
 ### Code
 - The love running code layout for arranging the navigation layout and social media layout.
-- The love running walkthrough project code for designing the club ethos section inspired the 33% division of my gym section on the home page.
-- the youtube video file, on how to use the display: flex property.
+[view](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/)
+- The love running walkthrough project design for the club ethos section inspired the 33% division of my gym section on the home page.
+- A youtube video file, on how to use the display: flex property, was used to understand how to include this property in the website. The site is no longer live on youtube but I have attached a screenshot of the video file.
+![Flex Property](assets/images/youtube-flex-tutorial.PNG)
 - The sample readme file for the love running project and the code institute page was used to help with headings and layout for the readme file.
 
 ### Content
