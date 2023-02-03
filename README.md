@@ -220,12 +220,6 @@ I carried out a lighthouse report using the Google Chrome Lighthouse function fo
 
 ### Bugs
 
-#### Unfixed bugs
-
-- When testing on the html validator for the gallery.html file an error returned recommending to use h2-h6 elements inside the section or to use a div element.
-- I wrapped the image elements in a div container inside the section element however the error message still appears.
-![error message gallery](assets/images/html-checker-gallery-unfixed.PNG)
-
 #### Solved bugs
 - When testing the deployed website for responsivity, on larger desktop screen sizes, the hero image cover text was appearing very far right of the image. Fixed this position issue for desktop screens with media queries targetting screens larger than 1300px and 1400px.
 
@@ -235,6 +229,15 @@ I carried out a lighthouse report using the Google Chrome Lighthouse function fo
 1. The bulbapedia link was listed as .com, its the .net site that required linking to, which has been fixed on all four pages.
 2. There was a large vertical gap on the contact us page between the navigation bar and the contact section, this was fixed by removing the height property given.
 3. Family members tested the site on a variety of android and iphone devices, there was more overlap on the iPhone13 model on the home page screen than the Samsung devices so I included additional media queries to target smaller screen sizes to account for this. 
+
+- When testing on the html validator for the gallery.html file an error returned recommending to use h2-h6 elements inside the section or to use a div element.
+- I wrapped the image elements in a div container inside the section element however the error message still appeared.
+![error message gallery](assets/images/html-checker-gallery-unfixed.PNG)
+- I changed the section element to a main element and this fixed the problem.
+
+#### Unfixed bugs
+- There are no unsolved bugs. 
+- A warning appears on the CSS validator regarding the import file not being checked but there are no errors.
 
 ## Deployment
 
