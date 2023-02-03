@@ -77,6 +77,10 @@ All images included in the website have been taken by the author from the Ninten
 
 ![Recommended Pokémon Tips](assets/images/recommended-pok%C3%A9mon.PNG)
 
+- There is a gym type section under the gym leader guide with images of each of the eight gym leader types which gives the user insight into the types the gym leaders use and to plan their team accordingly in addition to using the recommended tips as a guide.
+
+![Gym Type Images](assets/images/gym-type-images.PNG)
+
 - The tips page also contains an embedded youtube video, created by the author, showing the author successfully defeating the ghost gym leader. Two of the recommended Pokémon are visible in the 30 second clip which provides users that are playing the game with a strategy for this battle and evokes excitement and enthusiasm for prospective players as the new form of mega evolution known as terastallizing is recorded in this clip.
 
 ![Ghost gym video clip](assets/images/ghost-gym-video.PNG)
@@ -177,6 +181,9 @@ Pokémon Violet and Pokémon Scarlet are very expansive open world games with en
 - Firefox
 
 - Lighthouse
+I carried out a lighthouse report using the Google Chrome Lighthouse function for desktop and mobile. The results returned are very positive for accessibility and search engine optimisation and excellent performance on desktop view and very good on mobile.
+![Desktop Lighthouse Report](assets/images/lighthouse-report-desktop.PNG)
+![Mobile Lighthouse Report](assets/images/lighthouse-report-mobile.PNG)
 
 ### Bugs
 
