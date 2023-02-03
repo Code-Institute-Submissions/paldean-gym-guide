@@ -126,6 +126,7 @@ The address shown in the iframe on the contact us page is the Code Institute add
 - Including aria labels for the social media clickable links.
 - Using alt attributes for all image elements used.
 - Using a specific palette of colors that allow clear contrast for users.
+- Using contrasting colors on the contact form when the user hovers over the input field.
 - Using sans-serif fonts as back-up fonts.
 
 ## Languages
@@ -141,24 +142,24 @@ The address shown in the iframe on the contact us page is the Code Institute add
 3. [Google Fonts](https://googlefonts.com)
 - Googlefonts was used to access the import link for the chosen fonts.
 4. [Font Awesome](https://fontawesome.com)
-- Font Awesome was used to choose icons and use the html code displayed to insert the chosen icons into the footer and contact us sections of the site.
+- Font Awesome was used to choose icons and use the html code displayed to insert the chosen icons into the footer and contact us sections of the site. There was no icon for [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page) so I used the green leaf icon available as a substitute.
 5. [Balsamiq](https://balsamiq.com)
 - Balsamiq was used for designing the wireframes for desktop, tablet and smart phone screen sizes.
 6. [Git](https://gitpod.io)
-- Gitpod was used for adding commits each time a new feature was added to the project and for pushing the commits to Github.
+- Gitpod was used for adding commits each time a new feature was added to the website and for pushing the commits to Github.
 7. [Github](https://github.com)
-- Github was used for storing projects after being pushed from gitpod and for deploying the website.
+- Github was used for storing the site after being pushed from gitpod and for deploying the website.
 8. [Youtube](https://youtube.com)
 - Youtube was used to upload the video recorded on the Nintendo Switch and then embed into the website so Youtube can host the video to improve performance.
 9. [Google maps](https://www.google.com/maps)
-- Google maps was used to get the address for the Code Institute building in Dublin and use a screenshot of this address in the iframe element on the contact us page.
-10. The Nintendo Switch gaming console and the Game Freak Pokémon Violet video game to take and record the images and video files used throughout the website.
+- Google maps was used for the address of the Code Institute building in Dublin and a screenshot of the address was used in the iframe element on the contact us page.
+10. The Nintendo Switch gaming console and the Game Freak Pokémon Violet and Scarlet video games to take and record the images and video files used throughout the website.
 
 ## Future Features
 
 Pokémon Violet and Pokémon Scarlet are very expansive open world games with endless possibilities on the route to take and the areas to explore. I have chosen to focus on one of the possible routes a player can take however there are many more other challenges in store for the player throughout the world of Paldea. 
 - In future I would like to include sections with information on battlng the five Titans and the five Team Star leaders. 
-- Additionally I would like to include a section on the new Pokémon that have been introduced in generation 9 with users having the facility to vote for their new favourite Pokémon.
+- I would like to include a section on the new Pokémon that have been introduced in generation 9 with users having the facility to vote for their new favourite Pokémon.
 - To implement a quiz for users to particpate in with questions regarding the games and the new generation Pokémon.
 
 ### Validation & Testing
@@ -167,28 +168,32 @@ Pokémon Violet and Pokémon Scarlet are very expansive open world games with en
 
 [W3C HTML Validator](https://validator.w3.org/#validate_by_input)
 - No errors were found when the html code for the home page was passed through the official html validator.
+
 ![HTML Validator](assets/images/html-checker-home.PNG)
 
-- There were errors on the tips, gallery and contact us section as a width attribute with a % unit of measurement was used.
+- There were errors on the tips, gallery and contact us html code as a width attribute with a % unit of measurement was used.
 - On the contact us page width and height attributes with the px unit of measurement were included in the iframe element.
 ![Errors on contact us page](assets/images/html-checker-contact-us.PNG)
 
 [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - No errors were found when the css code was passed through the official validator.
 - Four warnings were recorded, three regarding the necessity to input "" around the font styles and one warning regarding the google fonts imported file.
+
 ![CSS Validator No Errors](assets/images/css-checker.PNG)
 ![CSS Validator Warnings](assets/images/css-checker-warnings.PNG)
 
 #### Final Validation
 - No errors were found for the index.html, tips.html and the contact-us.html files.
 - Error recorded on gallery.html for not including a heading within the section.
+
 - No errors on the css validator. The warning regarding the imported file still appears.
+
 ![CSS Validator warning](assets/images/css-warning.PNG)
 
 ### Testing User Stories
 #### First time users
 1. The users found the content easy to read and understand and recommended the site is kept simple and not overloaded with too much detail.
-2. The users confirmed the weaknesses listed were accurate for the Pokémon universe.
+2. The users confirmed the weaknesses listed were accurate for the Pokémon universe and confirmed the site was from a credible source.
 3. Users found the site easy to navigate and all links, both internal and external, worked.
 
 ### Testing on Browers and Devices
@@ -207,8 +212,10 @@ The website was tested on a variety of devices including desktop, HP laptops, Sa
 Family members were asked to check the website on their devices and highlight any issues with overlap, images loading or links.
 
 #### Lighthouse Testing
-I carried out a lighthouse report using the Google Chrome Lighthouse function for desktop and mobile. The results returned are very positive for accessibility and search engine optimisation and excellent performance on desktop view and very good on mobile.
+I carried out a lighthouse report using the Google Chrome Lighthouse function for desktop and mobile. The results returned are very positive for accessibility, best practices, search engine optimisation and excellent performance on desktop view and very good on mobile.
+
 ![Desktop Lighthouse Report](assets/images/lighthouse-report-desktop.PNG)
+
 ![Mobile Lighthouse Report](assets/images/lighthouse-report-mobile.PNG)
 
 ### Bugs
@@ -221,12 +228,13 @@ I carried out a lighthouse report using the Google Chrome Lighthouse function fo
 
 #### Solved bugs
 - When testing the deployed website for responsivity, on larger desktop screen sizes, the hero image cover text was appearing very far right of the image. Fixed this position issue for desktop screens with media queries targetting screens larger than 1300px and 1400px.
+
 ![Am I responsive](assets/images/am-i-responsive-first-run.PNG)
 
 - After the first deployment of the site the following actions needed to be taken:
 1. The bulbapedia link was listed as .com, its the .net site that required linking to, which has been fixed on all four pages.
 2. There was a large vertical gap on the contact us page between the navigation bar and the contact section, this was fixed by removing the height property given.
-3. Family members tested the site on a variety of android and iphone devices, there was more overlap on the iphone13 model on the home page screen so I included an additional media query to target smaller screen sizes to account for this. 
+3. Family members tested the site on a variety of android and iphone devices, there was more overlap on the iPhone13 model on the home page screen than the Samsung devices so I included additional media queries to target smaller screen sizes to account for this. 
 
 ## Deployment
 
@@ -238,6 +246,7 @@ Github was used to deploy the site.
 4. Click on pages on the left hand side under the code and automation heading.
 5. Under the heading of build and deployment click the branch drop down menu and select main and click save.
 6. Refresh the page and a notification will display that your site is now live and click the visit site option.
+
 ![Instructions](assets/images/github-pages.PNG)
 
 The live link to the website can be found [here](https://louiseconlon11.github.io/paldean-gym-guide/)
@@ -245,12 +254,12 @@ The live link to the website can be found [here](https://louiseconlon11.github.i
 ## Credits
 
 ### Code
-- The love running code layout for arranging the navigation layout and social media layout.
+- The love running code layout for arranging the navigation layout and social media layout was used in designing my own header navigation elements and footer external links.
 [view](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/637be1a2e3b84b25aa33f3ab4d98603c/)
-- The love running walkthrough project design for the club ethos section inspired the 33% division of my gym section on the home page.
-- A youtube video file, on how to use the display: flex property, was used to understand how to include this property in the website. The site is no longer live on youtube but I have attached a screenshot of the video file.
+- The [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/12ba169db7b34b82b137edd825af6a02/) design for the club ethos section inspired the 33% division of my gym section on the home page.
+- A youtube video file, on how to use the display flex property was used to understand how to include this property in the website. The site is no longer live on youtube but I have attached a screenshot of the video file.
 ![Flex Property](assets/images/youtube-flex-tutorial.PNG)
-- The sample readme file for the love running project and the code institute page was used to help with headings and layout for the readme file.
+- The sample readme files for the love running project and the code institute page were used to help with headings and layout for the readme file for the website.
 [View Love Running](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
 [View Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME)
 
@@ -267,4 +276,3 @@ The live link to the website can be found [here](https://louiseconlon11.github.i
 - Thank you to my partner and family for checking and using the website on their phones and letting me know of any overlap and gap issues on the different devices.
 - Thank you to my mentor for feedback and support on planning and completing the project.
 - Thank you to the facilitator for including useful video links on how to use Balsamiq and how to write a good README file.
-[View](https://www.youtube.com/watch?v=XbYJ4VlhSnY&list=PL_7334VduOHvzZYlgy_0kZLcic2NINCUt&index=39)
