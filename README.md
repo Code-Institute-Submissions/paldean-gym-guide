@@ -174,13 +174,17 @@ Pokémon Violet and Pokémon Scarlet are very expansive open world games with en
 3. Users found the site easy to navigate and all links, both internal and external, worked.
 
 ### Testing on Browers and Devices
-- Chrome
 
-- Edge
+#### Browser Testing
+The website was tested on Google Chrome, Internet Explorer and Microsoft Edge.
 
-- Firefox
+- The layout and positioning on all three applications appear consistent.
+- The internal and external links all work. The external links open in a new tab.
+- The form on the contact us page accepts input and will not allow the user to submit unless a name and email are given and the email requires the @.
+- The website is responsive on all applications.
+- The linked youtube video plays in all applications.
 
-- Lighthouse
+#### Lighthouse Testing
 I carried out a lighthouse report using the Google Chrome Lighthouse function for desktop and mobile. The results returned are very positive for accessibility and search engine optimisation and excellent performance on desktop view and very good on mobile.
 ![Desktop Lighthouse Report](assets/images/lighthouse-report-desktop.PNG)
 ![Mobile Lighthouse Report](assets/images/lighthouse-report-mobile.PNG)
@@ -200,6 +204,7 @@ I carried out a lighthouse report using the Google Chrome Lighthouse function fo
 - After the first deployment of the site the following actions needed to be taken:
 1. The bulbapedia link was listed as .com, its the .net site that required linking to, which has been fixed on all four pages.
 2. There was a large vertical gap on the contact us page between the navigation bar and the contact section, this was fixed by removing the height property given.
+3. Family members tested the site on a variety of android and iphone devices, there was more overlap on the iphone13 model on the home page screen so I included an additional media query to target smaller screen sizes to account for this. 
 
 ## Deployment
 
@@ -222,6 +227,8 @@ Github was used to deploy the site.
 - A youtube video file, on how to use the display: flex property, was used to understand how to include this property in the website. The site is no longer live on youtube but I have attached a screenshot of the video file.
 ![Flex Property](assets/images/youtube-flex-tutorial.PNG)
 - The sample readme file for the love running project and the code institute page was used to help with headings and layout for the readme file.
+[View Love Running](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+[View Code Institute](https://github.com/Code-Institute-Solutions/SampleREADME)
 
 ### Content
 
@@ -235,3 +242,4 @@ Github was used to deploy the site.
 - Thank you to my partner and family for checking and using the website on their phones and letting me know of any overlap and gap issues on the different devices.
 - Thank you to my mentor for feedback and support on planning and completing the project.
 - Thank you to the facilitator for including useful video links on how to use Balsamiq and how to write a good README file.
+[View](https://www.youtube.com/watch?v=XbYJ4VlhSnY&list=PL_7334VduOHvzZYlgy_0kZLcic2NINCUt&index=39)
